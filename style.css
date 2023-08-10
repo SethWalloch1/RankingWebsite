@@ -105,3 +105,16 @@ p {
 .button:hover {
     background-color: #555;
 }
+
+/* Additional styling for the logo */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.logo img {
+    width: 50px; /* Adjust dimensions as needed */
+    height: 50px;
+    margin-right: 10px;
+}
