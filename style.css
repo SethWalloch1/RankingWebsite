@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #0d67b5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ a {
 }
 
 a.active {
-    background-color: #555;
+    background-color: #0d67b5;
 }
 
 .dropdown {
@@ -61,7 +61,7 @@ a.active {
 }
 
 header {
-    background-color: #333;
+    background-color: #0d67b5;
     color: #fff;
     text-align: center;
     padding: 2em;
@@ -91,7 +91,7 @@ p {
 
 .button {
     display: inline-block;
-    background-color: #333;
+    background-color: #0d67b5;
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -110,8 +110,9 @@ p {
 }
 
 .logo img {
-    width: 50px; /* Adjust dimensions as needed */
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
     margin-right: 10px;
 }
 
