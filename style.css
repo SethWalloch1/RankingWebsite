@@ -45,7 +45,7 @@ a.active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #0d67b5;
     min-width: 160px;
     z-index: 1;
 }
@@ -54,6 +54,13 @@ a.active {
     color: #fff;
     padding: 0.5em 1em;
     display: block;
+}
+
+.dropdown-content a:hover {
+    color: #fff;
+    padding: 0.5em 1em;
+    display: block;
+    background-color: #0a4a8f
 }
 
 .dropdown:hover .dropdown-content {
