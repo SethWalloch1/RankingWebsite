@@ -10,6 +10,20 @@ body {
     line-height: 1.6;
 }
 
+.center-horizontal {
+    text-align: center; /* Horizontally center the list */
+    display: flex;
+    justify-content: center; /* Horizontally center the list items */
+    align-items: center; /* Vertically center the list items */
+    min-height: 100vh; /* Ensure the list is centered vertically on the viewport */
+    padding-right: 100px;
+}
+
+.center-horizontal h1{
+    padding-right: 100px;
+    padding-bottom: 600px;
+}
+
 nav {
     background-color: #0d67b5;
     display: flex;
